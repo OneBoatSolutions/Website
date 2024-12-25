@@ -1,0 +1,17 @@
+/* Glassmorphic effect */
+.glassmorphic-container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.15); /* Light translucent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow with blueish tint */
+    backdrop-filter: blur(5px); /* Apply subtle blur effect to background */
+    -webkit-backdrop-filter: blur(1.5px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Subtle border to match the glass effect */
+    color: rgba(0, 0, 0, 0.8); /* Darker text for contrast */
+}
+
+.glassmorphic-container:hover {
+    backdrop-filter: blur(5px); /* Enhance the blur effect on hover */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Stronger border on hover */
+}
