@@ -72,17 +72,17 @@ export default function ScrollBaseAnimation({
         className="flex whitespace-nowrap gap-10 flex-nowrap"
         style={{ x }}
       >
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
-        <span className={cn('block text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
+        <span className={cn('block text-[6vw] sm:text-[3vw]', clasname)}>{children}</span>
       </motion.div>
     </div>
   );

@@ -1,0 +1,77 @@
+
+.contact-us-section {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white for glassmorphism */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    color: #333333;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-form {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white for glassmorphic effect */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #6366f1; /* Indigo focus border */
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.5);
+  }
+  
+  .contact-form button {
+    background-color: #4f46e5; /* Indigo background */
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4338ca; /* Darker indigo on hover */
+  }
+  
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #6366f1; /* Indigo focus border */
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.5);
+  }
+  
+  .contact-form button {
+    background-color: #4f46e5; /* Indigo background */
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4338ca; /* Darker indigo on hover */
+  }
+  

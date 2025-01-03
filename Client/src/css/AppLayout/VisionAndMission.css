@@ -1,0 +1,35 @@
+
+.vision-mission-section {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.3), rgba(240, 240, 240, 0.1));
+    padding: 40px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5x);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    top: -50px;
+    box-shadow: 14px 14px 28px rgb(182, 182, 182);
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .vision-container h2,
+  .mission-container h2 {
+    color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .vision-container p,
+  .mission-container p {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  

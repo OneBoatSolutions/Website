@@ -1,0 +1,40 @@
+
+.about-us-section {
+    background: linear-gradient(145deg, rgba(230, 245, 255, 0.3), rgba(220, 230, 250, 0.1));
+    padding: 40px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  .about-us-section {
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .about-us-section h2 {
+    color: #4c1d95; /* Bold Indigo for heading */
+    font-weight: 900;
+  }
+  
+  .about-us-section p {
+    font-size: 1.125rem; /* Slightly larger paragraph text */
+    color: #374151; /* Neutral gray for better readability */
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-section a {
+    text-transform: uppercase;
+  }

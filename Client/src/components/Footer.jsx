@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { AiOutlineFileText, AiOutlineLock } from "react-icons/ai";
-
+import '../css/Components/Footer.css'
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
