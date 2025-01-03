@@ -42,15 +42,14 @@ const Navigation = () => {
     </nav>
   );
 };
-
-const NavLinks = () => {
+const NavLinks = () => { 
   const links = ['Home', 'About', 'Courses', 'Student Portal', 'Domain'];
   return (
     <>
       {links.map((link) => (
         <Link
           key={link}
-          to={`/${link.toLowerCase().replace(' ', '-')}`}
+          to={link === 'Student Portal' ? '/Zverse/Dashboard' : `/${link.toLowerCase().replace(' ', '-')}`}
           className="px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 relative group"
         >
           {link}

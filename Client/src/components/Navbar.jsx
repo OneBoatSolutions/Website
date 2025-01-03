@@ -56,7 +56,7 @@ const Navbar = () => {
               <a className="text-xl">About</a>
             </li>
             <li>
-              <a className="text-xl">ZVerse</a>
+              <a className="text-xl" href="/Zverse"><Link to='/Zverse'>Zverse</Link></a>
             </li>
             <li>
               <a className="flex items-center gap-2 btn btn-primary">

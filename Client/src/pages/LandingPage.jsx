@@ -33,13 +33,13 @@ const LandingPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
                 <Link
-                  to="/courses"
+                  to=""
                   className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold text-lg hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
                 >
                   Explore Courses
                 </Link>
                 <Link
-                  to="/signup"
+                  to=""
                   className="inline-block bg-white text-indigo-600 px-6 py-3 rounded-md font-semibold text-lg border-2 border-indigo-600 hover:bg-indigo-50 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
                 >
                   Sign Up Now
